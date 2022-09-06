@@ -1,6 +1,6 @@
 # Owie
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/danilo-dreia/Owie/tree/jev/mah_battery_tracking)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/danilo-dreia/Owie)
 
 This project is unlocks battery expansion possibilities on otherwise
 locked Onewheels, adds WiFi-based monitoring of various battery health signals such as individual cell voltages, current, etc.
