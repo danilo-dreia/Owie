@@ -52,7 +52,7 @@ void BmsRelay::batteryPercentageParser(Packet& p) {
    * For the first few %, track based off voltage
    * - This prevents captain morgan due to overcharge without app warning.
   */
-  if (mah_max_ != 0 && overridden_soc_percent_ > 15 && overridden_soc_percent_ <= 97) {
+  if (mah_max_ != 0 && overridden_soc_percent_ > 10 && overridden_soc_percent_ <= 97) {
     overridden_soc_percent_ = amperage_soc_percent_;
   }
   p.data()[0] = overridden_soc_percent_;
